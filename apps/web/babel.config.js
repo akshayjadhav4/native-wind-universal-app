@@ -1,4 +1,4 @@
 module.exports = {
   presets: ['@nrwl/next/babel'],
-  plugins: [['react-native-web', { commonjs: true }]],
+  plugins: [['react-native-web', { commonjs: true }], 'nativewind/babel'],
 };

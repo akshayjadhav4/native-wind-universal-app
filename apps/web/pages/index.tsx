@@ -1,12 +1,15 @@
-import { Text, View } from "react-native";
+import { Text as NativeText, View } from "react-native";
 
+import { styled } from "nativewind";
+
+const Text = styled(NativeText);
 
 export function Index() {
   
   return (
     <View>
-      <Text style={{ textAlign: 'center', fontSize: 30 }}>
-        react-native-web working
+      <Text className="text-center text-blue-400 text-2xl">
+        NativeWind Working
       </Text>
     </View>
   );
