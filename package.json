@@ -2,7 +2,10 @@
   "name": "universal-app",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:web": "nx run web:serve",
+    "start:app": "nx run mobile:start"
+  },
   "private": true,
   "dependencies": {
     "@expo/metro-config": "0.5.1",
