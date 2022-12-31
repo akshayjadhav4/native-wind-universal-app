@@ -1,1 +1,2 @@
-export * from './lib/Components';
+export * from "./lib/Base/Pressable"
+export * from "./lib/Base/Text"

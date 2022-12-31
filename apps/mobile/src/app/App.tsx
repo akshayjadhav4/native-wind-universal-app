@@ -1,15 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react';
-import {
-  SafeAreaView,
-  View,
-  Text as NativeText,
-  StatusBar,
-} from 'react-native';
-
-import { styled } from 'nativewind';
-
-const Text = styled(NativeText);
+import { SafeAreaView, View, StatusBar } from 'react-native';
+import { Text } from '@universal-app/components';
 
 const App = () => {
   return (
@@ -17,8 +9,8 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <View>
-          <Text className="text-center font-bold text-blue-400 text-2xl">
-            NativeWind Working
+          <Text className="text-center text-blue-600">
+            Text using NativeWind
           </Text>
         </View>
       </SafeAreaView>
